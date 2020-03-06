@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tecprime/screen/home.dart';
+import 'package:tecprime/screen/splash.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Home()
+      home: Splash()
     );
   }
 }
